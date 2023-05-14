@@ -20,10 +20,14 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    clicker,
+    livree,
+    autocompletion,
+    meteo,
+    oclock,
+    todo,
+    async,
   } from "../assets";
   
   export const navLinks = [
@@ -98,55 +102,40 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "php",
+      company_name: "Laplateforme",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "september 2022 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        " I have a strong command of PHP, a versatile scripting language used for web development. With my expertise in PHP, I can create dynamic and interactive web applications, handle form data, connect to databases, and implement server-side functionality. I am experienced in writing clean and efficient PHP code, adhering to best practices and industry standards"
       ],
     },
     {
       title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      company_name: "Laplateforme",
+      icon: reactjs,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Using React, I have crafted a seamless user interface that enhances navigation and provides an intuitive browsing experience. Leveraging the capabilities of Three.js, I have incorporated stunning 3D elements and visual effects, bringing a new level of depth and immersion to the portfolio"
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Javavscript",
+      company_name: "Laplateforme",
+      icon: javascript,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Experienced in JavaScript, including async programming and functions. Let's create dynamic web experiences together"
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "css",
+      company_name: "Laplateforme",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I specialize in creating visually stunning and responsive web designs using CSS. With expertise in responsive design techniques and flexbox layouts, I ensure that your website looks great on any device and adapts seamlessly to different screen sizes"
       ],
     },
   ];
@@ -154,7 +143,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "lLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra tempus quam a commodo. Mauris et rhoncus risus. Mauris fermentum malesuada sem at consequat. Mauris vestibulum, metus at dignissim dapibus, nisl libero fermentum tellus, eget tempus elit urna eget odio. Phasellus rutrum libero nec mi porttitor, non venenatis arcu dapibus. Duis turpis nulla, convallis fringilla porta vitae, vehicula sit amet arcu. Aliquam sollicitudin nibh eu nunc bibendum pharetra. Nam ullamcorper tellus in ultrices tristique. Nullam eget turpis quis neque fringilla aliquet. Phasellus pharetra vulputate mauris nec porta. Suspendisse potenti. Donec porta mauris non mauris maximus, sed cursus eros molestie. Suspendisse porta at mauris eget congue.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -162,7 +151,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra tempus quam a commodo. Mauris et rhoncus risus. Mauris fermentum malesuada sem at consequat. Mauris vestibulum, metus at dignissim dapibus, nisl libero fermentum tellus, eget tempus elit urna eget odio. Phasellus rutrum libero nec mi porttitor, non venenatis arcu dapibus. Duis turpis nulla, convallis fringilla porta vitae, vehicula sit amet arcu. Aliquam sollicitudin nibh eu nunc bibendum pharetra. Nam ullamcorper tellus in ultrices tristique. Nullam eget turpis quis neque fringilla aliquet. Phasellus pharetra vulputate mauris nec porta. Suspendisse potenti. Donec porta mauris non mauris maximus, sed cursus eros molestie. Suspendisse porta at mauris eget congue.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -170,7 +159,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra tempus quam a commodo. Mauris et rhoncus risus. Mauris fermentum malesuada sem at consequat. Mauris vestibulum, metus at dignissim dapibus, nisl libero fermentum tellus, eget tempus elit urna eget odio. Phasellus rutrum libero nec mi porttitor, non venenatis arcu dapibus. Duis turpis nulla, convallis fringilla porta vitae, vehicula sit amet arcu. Aliquam sollicitudin nibh eu nunc bibendum pharetra. Nam ullamcorper tellus in ultrices tristique. Nullam eget turpis quis neque fringilla aliquet. Phasellus pharetra vulputate mauris nec porta. Suspendisse potenti. Donec porta mauris non mauris maximus, sed cursus eros molestie. Suspendisse porta at mauris eget congue.!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -179,69 +168,188 @@ import {
   ];
   
   const projects = [
+
+
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
+      name: "Clicker Game",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "js",
           color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "php",
+          color: "yellow-text-gradient",
+        },
       ],
-      image: tripguide,
+      image: clicker,
+      source_code_link: "https://github.com/samuel-durand/clicker",
+    },
+    {
+      name: "Livre d'or async",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "php",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: livree,
       source_code_link: "https://github.com/",
     },
+
+    {
+      name: "Auto Completion",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "php",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: autocompletion,
+      source_code_link: "https://github.com/samuel-durand/Autocompletion",
+    },
+
+    {
+      name: "Meteo Api",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+
+      ],
+      image: meteo,
+      source_code_link: "https://github.com/samuel-durand/meteo",
+    },
+
+    
+    {
+      name: "O'CLOCK",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+
+      ],
+      image: oclock,
+      source_code_link: "https://github.com/samuel-durand/oclock",
+    },
+
+    {
+      name: "Todo List",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "php",
+          color: "yellow-text-gradient",
+        },
+
+      ],
+      image: todo,
+      source_code_link: "https://github.com/samuel-durand/to-do-list-js",
+    },
+    {
+      name: "Module de Connexion Async",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "php",
+          color: "yellow-text-gradient",
+        },
+
+      ],
+      image: async,
+      source_code_link: "https://github.com/samuel-durand/Projet",
+    },
+
+
+
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };

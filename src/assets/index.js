@@ -26,9 +26,18 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import clicker from "./clicker.png";
+import livree from "./livre.png"
+import autocompletion from "./autocompletion.png"
+import meteo from "./meteo.png"
+import oclock from "./o'clock.png"
+import todo from "./todo list.png"
+import async from "./async.png"
+
+
+
+
+
 
 export {
   logo,
@@ -56,7 +65,11 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  clicker,
+  livree,
+  autocompletion,
+  meteo,
+  oclock,
+  todo,
+  async,
 };

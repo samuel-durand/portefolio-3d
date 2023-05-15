@@ -14,6 +14,7 @@ import {
     nodejs,
     mongodb,
     git,
+    php,
     figma,
     docker,
     meta,
@@ -104,7 +105,7 @@ import {
     {
       title: "php",
       company_name: "Laplateforme",
-      icon: starbucks,
+      icon: php,
       iconBg: "#383E56",
       date: "september 2022 - August 2023",
       points: [
@@ -132,7 +133,8 @@ import {
     {
       title: "css",
       company_name: "Laplateforme",
-      icon: meta,
+      name: "CSS 3",
+      icon: css,
       iconBg: "#E6DEDD",
       points: [
         "I specialize in creating visually stunning and responsive web designs using CSS. With expertise in responsive design techniques and flexbox layouts, I ensure that your website looks great on any device and adapts seamlessly to different screen sizes"
@@ -173,7 +175,7 @@ import {
     {
       name: "Clicker Game",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Discover our ultimate clicker game! Sign up, log in, and click endlessly to accumulate points. Use them in our shop to purchase additional clicks and unlock an auto clicker. Take on the challenge now and show off your clicking power!",
       tags: [
         {
           name: "html",
@@ -198,7 +200,7 @@ import {
     {
       name: "Livre d'or async",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Experience our remarkable interactive guestbook! Register, log in, and engage in synchronous commenting. Share your thoughts, explore other users' opinions, and connect with a vibrant community. Join our dynamic guestbook now and make your voice heard in meaningful discussions. Don't miss the opportunity to be part of this collective adventure",
       tags: [
         {
           name: "html",
@@ -224,7 +226,7 @@ import {
     {
       name: "Auto Completion",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "auto completion for search data in database directly by input search",
       tags: [
         {
           name: "html",
@@ -250,7 +252,7 @@ import {
     {
       name: "Meteo Api",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "I explore the capabilities and potential of weather APIs. My goal is to demonstrate the functionality and versatility of weather APIs, allowing you to gain firsthand experience and discover the wide range of possibilities they offer",
       tags: [
         {
           name: "html",
@@ -274,7 +276,7 @@ import {
     {
       name: "O'CLOCK",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An HTML, CSS, and JavaScript clock that displays the time, date, alarm, timer, and stopwatch.",
       tags: [
         {
           name: "html",
@@ -297,7 +299,7 @@ import {
     {
       name: "Todo List",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web app that allows asynchronous registration and login, enabling users to post a to-do list, view ongoing tasks, mark them as completed with a button, display a table of all completed tasks, and provide a button to delete tasks",
       tags: [
         {
           name: "html",
@@ -323,7 +325,7 @@ import {
     {
       name: "Module de Connexion Async",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A module for asynchronous registration and login, along with a home page displaying the name of the logged-in user",
       tags: [
         {
           name: "html",

@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -35,6 +34,8 @@ import meteo from "./meteo.png"
 import oclock from "./o'clock.png"
 import todo from "./todo list.png"
 import async from "./async.png"
+import logo from "./logo.png"
+
 
 
 

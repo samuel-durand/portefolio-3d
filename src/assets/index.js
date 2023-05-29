@@ -34,6 +34,7 @@ import meteo from "./meteo.png"
 import oclock from "./o'clock.png"
 import todo from "./todo list.png"
 import async from "./async.png"
+import cine from "./cine.png"
 import logo from "./logo.png"
 
 
@@ -75,5 +76,6 @@ export {
   oclock,
   todo,
   async,
+  cine,
   php,
 };

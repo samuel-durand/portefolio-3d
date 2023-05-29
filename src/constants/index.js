@@ -28,6 +28,7 @@ import {
     meteo,
     oclock,
     todo,
+    cine,
     async,
   } from "../assets";
   
@@ -348,10 +349,36 @@ import {
       image: async,
       source_code_link: "https://github.com/samuel-durand/Projet",
     },
+    {
+      name: "Cinetech",
+      description:
+        "un projet qui à pour but de tester l'api de TMbd",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "php",
+          color: "yellow-text-gradient",
+        },
+
+      ],
+      image: cine,
+      source_code_link: "https://github.com/samuel-durand/Cinetech",
+    },
 
 
 
 
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences,  projects };
